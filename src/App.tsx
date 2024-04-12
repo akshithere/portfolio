@@ -9,7 +9,6 @@ import {
 // import Home from "./components/Home";
 import About from "./components/About";
 import RootLayout from "./layouts/RootLayout";
-import ProjectMenu from "./layouts/ProjectLayout";
 import ErrorComponent from "./components/ErrorComponent";
 import Home from "./components/Home";
 import { Navigate } from "react-router-dom";
