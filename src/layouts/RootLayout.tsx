@@ -3,7 +3,7 @@ import Appbar from '../components/Appbar'
 
 function RootLayout() {
   return (
-    <div className='root'>
+    <div className='root bg-bgPrimary'>
         <Appbar/>        
         <main className='main'>
             <Outlet/>

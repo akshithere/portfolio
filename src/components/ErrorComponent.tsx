@@ -2,7 +2,7 @@ export default function ErrorComponent(){
     return(
         <>
         <div>
-            error page
+                Pretty error Page
         </div>
         </>
     )
