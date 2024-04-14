@@ -3,7 +3,7 @@ import Appbar from '../components/Appbar'
 
 function RootLayout() {
   return (
-    <div className='root bg-bgPrimary'>
+    <div className='root bg-bgPrimary scrollbar'>
         <Appbar/>        
         <main className='main'>
             <Outlet/>

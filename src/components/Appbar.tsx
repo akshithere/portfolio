@@ -8,10 +8,10 @@ export default function Appbar(){
             </div>
             <div>
                 <ul className="font-abc text-2xl flex justify-evenly items-center space-x-20">
-                    <li className="hover:transform hover:text-selectColor hover:scale-110 transition-all"><NavLink className="project-link" to="/">Home</NavLink></li>
-                    <li className="hover:transform hover:text-selectColor hover:scale-110 transition-all"><NavLink className="project-link" to="/about">About</NavLink></li>
-                    <li className="hover:transform hover:text-selectColor hover:scale-110 transition-all"><NavLink className="project-link" to="/projects">Projects</NavLink></li>
-                    <li className="hover:transform hover:text-selectColor hover:scale-110 transition-all"><NavLink className="project-link" to="/contact">Contact</NavLink></li>
+                    <li className="hover:transform hover:text-blue-900 hover:scale-110 transition-all"><NavLink className="project-link" to="/">Home</NavLink></li>
+                    <li className="hover:transform hover:text-blue-900 hover:scale-110 transition-all"><NavLink className="project-link" to="/about">About</NavLink></li>
+                    <li className="hover:transform hover:text-blue-900 hover:scale-110 transition-all"><NavLink className="project-link" to="/projects">Projects</NavLink></li>
+                    <li className="hover:transform hover:text-blue-900 hover:scale-110 transition-all"><NavLink className="project-link" to="/contact">Contact</NavLink></li>
                     <button className="bg-black text-white hover:text-selectColor text-xl rounded px-6 py-3 flex items-center hover:px-10 hover:shadow-lg transition-all duration-300 ease-in-out">Drop an Email</button>
                     
                     
