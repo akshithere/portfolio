@@ -7,37 +7,16 @@ export default {
   theme: {
     extend: {
       keyframes: {
-        slideUp: {
-          '0%': { transform: 'translateY(0%)' },
-          '100%': { transform: 'translateY(-100%)' }
-        },
-        typewriter: {
-          to: {
-            left: "100%"
-          },
-          blink: {
-            '0%': {
-              opacity: '0',
-            },
-            '0.1%': {
-              opacity: '1',
-            },
-            '50%': {
-              opacity: '1',
-            },
-            '50.1%': {
-              opacity: '0',
-            },
-            '100%': {
-              opacity: '0',
-            },
-          }
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
         }
       },
       animation: {
         slideUp: 'slideUp 4s linear infinite',
         typewriter: "typewriter 2s steps(11) forwards",
-        caret: 'typewriter 2s steps(11) forwards, blink 1s steps(11) infinite 2s'
+        caret: 'typewriter 2s steps(11) forwards, blink 1s steps(11) infinite 2s',
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
       },
       fontFamily: {
         'abc': ['Teko', 'sans-serif'],

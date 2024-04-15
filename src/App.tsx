@@ -10,7 +10,7 @@ import {
 import About from "./components/About";
 import RootLayout from "./layouts/RootLayout";
 import ErrorComponent from "./components/ErrorComponent";
-import Home from "./components/Home";
+import Hero from "./components/Hero";
 import { Navigate } from "react-router-dom";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorComponent />,
 
     children: [
-      { index: true, Component: Home },
+      { index: true, Component: Hero },
       { path: "/about", Component: About},
       {path:"/contact", Component: Contact},
       {path:"/projects", Component: Projects},
@@ -53,7 +53,7 @@ const router = createBrowserRouter([
 // }
 
 export default function App() {
-  return <RouterProvider router={router} />
+  return <RouterProvider router={router} /> 
   
 
 }
