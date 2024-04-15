@@ -12,7 +12,9 @@ export default function Projects(){
                 
 
              <div className='w-1/4 border border-solid border-white border-6 '>
+                <a href="https://github.com/akshithere/codejam-v4">
                 <img className='object-cover' src={p1} alt="" />
+                </a>
              </div>
 
              <div className='w-1/4 border border-solid border-white border-6 '>
