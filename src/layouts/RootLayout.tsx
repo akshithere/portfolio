@@ -11,7 +11,7 @@ function RootLayout() {
   return (
     
       
-    <div className='root bg-bgPrimary scrollbar'>
+    <div className='root bg-bgPrimary scrollbar selection:text-white'>
         <Appbar/>        
         <main className='main'>
             <Outlet/>

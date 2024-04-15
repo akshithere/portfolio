@@ -68,9 +68,16 @@ export default function Hero(){
         <div className="flex justify-center w-full scrollbar">
             <div className="flex justify-center items-center flex-grow w-1/2 flex-col">
 
+            <div className='mx-14'>
+            <h1 className='font-primaryFont text-6xl font-bold mx-14 selection:text-white'><i> "Change is the only Constant" </i></h1>
+              </div>   
+
+<div className='mt-20 selection:text-white'>
 <TypingAnimation />
+</div>
 
 <div className=''>
+  
 <button className="text-black font-primaryFont bg-transparent border border-solid border-10 border-black  hover:bg-black hover:text-white active:bg-pink-600 font-bold uppercase text-xl px-6 py-2 rounded  mr-1 mb-1 ease-linear transition-all duration-150 mx-5" type="button"
 >
 <NavLink to="/projects">Check my projects</NavLink>
